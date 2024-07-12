@@ -16,6 +16,7 @@ spec:
       containers:
         - name: mycon
           image: rashay/myimg
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8091
 
